@@ -82,3 +82,7 @@
   bottom: 8px;
   right: 5px;
 }
+
+body {
+  padding-bottom: 15px;
+}
