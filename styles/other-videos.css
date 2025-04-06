@@ -1,0 +1,12 @@
+#video-preview {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.video-info {
+  display: grid;
+  display: inline-block;
+}

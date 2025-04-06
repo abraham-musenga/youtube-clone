@@ -1,0 +1,27 @@
+.video-title {
+  margin-top: 2rem;
+  font-size: large;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#video-title {
+  font-size: 2rem;
+}
+
+body {
+  padding-bottom: 1px;
+}
+
+
+.video-stats,
+.video-author {
+  margin-bottom: 4px;
+  color: rgb(96, 96, 96);
+  font-size: 1.5rem;
+}
+
+.video-info {
+  background: grey transparent
+}
