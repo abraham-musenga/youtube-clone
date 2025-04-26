@@ -34,7 +34,12 @@
 }
 
 .youtube-logo {
-  height: 20px;
+  height: 40px;
+}
+
+#youtube-logo {
+  height: 24px;
+  margin-bottom: 1rem;
 }
 
 .middle-section {
@@ -177,4 +182,16 @@ position: relative;
   height: 32px;
   border-radius: 16px;
   cursor: pointer;
+}
+
+.Header {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: 100px 100px;
+}
+
+#hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
