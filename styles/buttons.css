@@ -1,9 +1,18 @@
 .subscribe {
   width: 119px;
   height: 35px;
-  background-color: rgb(223, 17, 17);
+  background-color: black;
   border: none;
   border-radius: 17.5px;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.subscribe:hover {
+  opacity: 0.7;
+}
+.subscribe:active {
+  opacity: 0.4;
 }

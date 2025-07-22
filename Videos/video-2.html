@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Try Not To Laugh Challenge #9</title>
+    <link rel="stylesheet" href="/styles/buttons.css" />
   </head>
   <body>
     <iframe
@@ -13,5 +14,17 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
+    <button onclick="subButton();" class="subscribe">Subscribe</button>
+    <script>
+      function subButton() {
+        const buttonElement = document.querySelector(".subscribe");
+
+        if (buttonElement.innerHTML === "Subscribe") {
+          buttonElement.innerHTML = "Subscribed";
+        } else {
+          buttonElement.innerHTML = "Subscribe";
+        }
+      }
+    </script>
   </body>
 </html>
